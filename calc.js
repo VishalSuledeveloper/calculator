@@ -20,3 +20,7 @@ function clr(){
 function del(){
     result.value= result.value.slice(0,-1)
 }
+function changeMode(){
+    let mybody = document.body;
+    mybody.classList.toggle("mydark")
+}

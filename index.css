@@ -4,22 +4,22 @@
     box-sizing: border-box;
     outline: none;
     font-family: sans-serif;
-    background-color: #ecf0f3;
+    /* background-color: #ecf0f3; */
 }
 
 .container{
     
-    margin-top: 100px;
+    margin-top: 50px;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #41bf4e;
+    /* background-color: #41bf4e; */
 }
 
 .calc{
-    background-color: pink;
-    box-shadow: 6px 6px 13px rgb(189, 203, 130),
+    background-color: rgb(130, 194, 178);
+    box-shadow: 6px 6px 13px black,
     6px 6px 13px rgb(0,0,0,16);
     border-radius: 28px;
     padding: 16px;
@@ -68,4 +68,14 @@ footer{
     margin-top: 50px;
     font-weight: bold;
     
+}
+.mydark{
+    background-color:black;
+    color:white
+}
+.cg{
+    margin-top: 10px;
+    color: aqua;
+    
+
 }
